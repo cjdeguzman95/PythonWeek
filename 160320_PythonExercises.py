@@ -5,7 +5,7 @@ import time
 full_name = input("What is your full name? ")
 birth_year = int(input("What year were you born in? "))
 age = 2020 - birth_year
-address = int(input("What is the first line of your address? "))
+address = input("What is the first line of your address? ")
 postcode = input("What is your postcode? ")
 
 print("Hi {}, I know that you are {} years old and you live in {}, {}".format(full_name, age, address, postcode))
