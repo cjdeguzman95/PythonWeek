@@ -5,11 +5,10 @@ import time
 full_name = input("What is your full name? ")
 birth_year = int(input("What year were you born in? "))
 age = 2020 - birth_year
-house_number = int(input("What is your house number? "))
-street = input("Which street do you live on? ")
+address = int(input("What is the first line of your address? "))
 postcode = input("What is your postcode? ")
 
-print("Hi {}, I know that you are {} years old and you live in {} {}, {}".format(full_name, age, house_number, street, postcode))
+print("Hi {}, I know that you are {} years old and you live in {}, {}".format(full_name, age, address, postcode))
 
 
 # Exercise 2: Check if a word is a palindrome
