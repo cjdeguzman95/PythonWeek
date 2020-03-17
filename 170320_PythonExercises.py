@@ -45,5 +45,3 @@ elif number % 5 == 0:
     print("{} is a buzz number!".format(number))
 else:
     print("Unfortunately, {} is neither a fizz, buzz nor a fizzbuzz number!".format(number))
-
-
