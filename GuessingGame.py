@@ -26,4 +26,3 @@ while MAX_GUESS != 0:
             break
 else:
     print("Sorry, you're out of guesses! Better luck next time!")
-

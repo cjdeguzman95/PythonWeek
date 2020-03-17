@@ -1,7 +1,3 @@
-# design a programme that tells your weekly horoscope
-# need to give a personalised experience
-# need to be able to work out which star sign the user is
-
 import time
 
 print("Let me tell you your horoscope...")
@@ -82,5 +78,3 @@ else:
 print("Hmmm.. your fortune for the week is...")
 time.sleep(2)
 print("{}, the universe tells me that ".format(name), fortune)
-
-
