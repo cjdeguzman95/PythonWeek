@@ -1,5 +1,6 @@
 # Exercises for 17/03/20
 
+
 # Exercise 1: Sort the numbers from the original list into even and odd numbers and insert into new lists
 list = [10, 111, 24, 56, 78, 75, 65, 80]
 
@@ -14,6 +15,7 @@ for number in list:
 
 print(even_list)
 print(odd_list)
+
 
 # Exercise 2: Giving the description for a film rating
 film_rating = input("What is the film rating? ")
@@ -31,6 +33,7 @@ elif film_rating.lower() == "18":
 else:
     print("this is not a correct rating, please use universal, pg, 12, 12a, 15, 18")
 
+
 # Exercise 3: Fizzbuzz
 number = int(input("Give me a number: "))
 
@@ -42,4 +45,5 @@ elif number % 5 == 0:
     print("{} is a buzz number!".format(number))
 else:
     print("Unfortunately, {} is neither a fizz, buzz nor a fizzbuzz number!".format(number))
+
 
