@@ -95,9 +95,9 @@ elif month.lower() == "november" or month.lower() == "nov":
 
 
 if astrology in ["Sagittarius", "Aquarius", "Aries", "Gemini", "Leo", "Libra"]:
-    fortune = "you will receive lots of money this week"
+    fortune = "you may find yourself emotionally challenged today by a strong force demanding your attention.\nThe more you simply let loose and explore, the better off you'll be!"
 else:
-    fortune = "you will meet someone new this week!"
+    fortune = "your hyperawareness to every situation might be driving you a bit crazy.\nPerhaps you just need to tone things down and relax!"
 
 print("Interesting. Hmmm.. Give me a few moments...")
 time.sleep(2)
