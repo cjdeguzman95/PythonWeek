@@ -3,14 +3,14 @@ MAX_GUESS = 5
 
 name = str(input("What is your name? "))
 
-print("Hi {}, I'm thinking of a number between 1 and 100. Can you guess what it is?".format(name.upper()))
+print("Let's play a game {}\nI'm thinking of a number between 1 and 100.\nCan you guess what it is?".format(name.capitalize()))
 print("You have {} guesses".format(MAX_GUESS))
 
 while MAX_GUESS != 0:
     try:
         guess = int(input("What number am I thinking of? "))
     except ValueError as err:
-        print("Please insert numeric characters {}".format(name.upper()))
+        print("Please insert numeric characters {}".format(name.capitalize()))
     else:
         if guess != TARGET:
             MAX_GUESS -= 1
