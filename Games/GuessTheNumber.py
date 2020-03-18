@@ -46,6 +46,5 @@ while MAX_GUESS != 0:
         else:
             print("That's correct! You won!")
             break
-else:
-    print("Sorry {}, you're out of guesses! Better luck next time!".format(name.capitalize()))
-    print("I was thinking of {}".format(target_number))
+print("Sorry {}, you're out of guesses! Better luck next time!".format(name.capitalize()))
+print("I was thinking of {}".format(target_number))
