@@ -101,4 +101,5 @@ else:
 
 print("Interesting. Hmmm.. Give me a few moments...")
 time.sleep(2)
+
 print("{}, the universe tells me that".format(name.capitalize()), fortune)
