@@ -10,19 +10,19 @@ import time
 
 fortune = {
     "red": {
-        "fortune one": "Be careful or you could fall for some tricks today!",
+        "fortune one": "You will meet someone special this week!",
         "fortune two": "You have a secret admirer!"
     },
     "green": {
-        "fortune three": "Now is a good time to buy stock!",
-        "fortune four": "Be careful how you spend this week - you are set to lose a lot!"
+        "fortune three": "Now is a good time to invest in some stocks!",
+        "fortune four": "Be careful how you spend your money this week - you are set to lose a lot!"
     },
     "blue": {
-        "fortune five": "Failure is the chance to do better next time!",
-        "fortune six": "The harder you work, the luckier you get!"
+        "fortune five": "Don't worry, failure is the chance to do better next time!",
+        "fortune six": "You will receive great feedback this week!"
     },
     "yellow": {
-        "fortune seven": "Don’t just spend time - invest it!",
+        "fortune seven": "Check in on your friends this week, they are missing you!",
         "fortune eight": "Remember to share good fortune as well as bad with your friends!"
     }
 }
