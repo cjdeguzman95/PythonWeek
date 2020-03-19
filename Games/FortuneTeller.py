@@ -2,7 +2,7 @@
 A game inspired by 'cootie catchers', where colours and numbers are used to tell your future!
 Theme of fortune given depends on the colour the user chooses.
 Use of time module to mimic the programme thinking.
-Use of dictionary to store all fortunes linked to colour (keys)
+Use of nested dictionaries to store all fortunes linked to colour (keys)
 Has a 'go again' feature to automatically restart the programme if the user wants to know another fortune.
 '''
 
