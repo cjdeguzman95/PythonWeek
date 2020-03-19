@@ -36,15 +36,15 @@ while MAX_GUESS != 0:
     except ValueError as err:
         print("Please insert numeric characters {}".format(name.capitalize()))
     else:
+        if guess < 1 or guess > 20:
+            print("I mean... that's out of range {}!".format(name.upper()))
         if guess != target_number:
             MAX_GUESS -= 1
-            if guess < 1 or guess > 20:
-                print("I mean... that's out of range {}!".format(name.upper()))
-            else:
-                print("Wrong number {}! Try Again!".format(name.capitalize()))
-                print("You have {} guesses left".format(MAX_GUESS))
+            print("Wrong number {}! Try Again!".format(name.capitalize()))
+            print("You have {} guesses left".format(MAX_GUESS))
         else:
             print("That's correct! You won!")
             break
-print("Sorry {}, you're out of guesses! Better luck next time!".format(name.capitalize()))
-print("I was thinking of {}".format(target_number))
+if MAX_GUESS == 0:
+    print("Sorry {}! You're out of guesses!".format(name.capitalize()))
+    print("I was thinking of {}".format(target_number))
