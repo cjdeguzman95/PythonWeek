@@ -69,7 +69,7 @@ class Student:
     def __init__(self, name, age, homeless):
         self.name = name
         self.age = age
-        self.homeless = homeless
+        self.homeless = False
 
     def student_age(self):
         print("{} is {} years old".format(self.name, self.age))
@@ -78,7 +78,7 @@ class Student:
         if self.homeless is True:
             print("{} needs housing".format(self.name))
         else:
-            print("doesn't need housing")
+            print("{} doesn't need housing".format(self.name))
 
 
 student1 = Student('James', 19, False)
