@@ -2,10 +2,10 @@
 import csv
 
 
-def transform_data():
+def transform_data(file_name):
     new_user_data = []
 
-    with open("user_data.csv", "r") as csv_file:
+    with open(file_name, "r") as csv_file:
         csv_reader = csv.reader(csv_file)
 
         for line in csv_reader:
@@ -17,10 +17,10 @@ def transform_data():
     return new_user_data
 
 
-def create_new_file():
-    new_user_data = transform_data()
+def create_new_file(file_name, new_file_name):
+    new_user_data = transform_data(file_name)
 
-    with open("full name.csv", "w") as new_file:
+    with open(new_file_name, "w") as new_file:
         csv_writer = csv.writer(new_file)
         csv_writer.writerows(new_user_data)
 
