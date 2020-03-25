@@ -11,7 +11,7 @@ class Modules:
 
     def module_length(self):
         if self.module_name == "python development":
-            print("This module is 2 weeks long")
+            return "This module is 2 weeks long"
         else:
             print("This module is a week long")
 
@@ -19,13 +19,19 @@ class Modules:
         self.list_modules.append(self.module_name)
 
     def list_all(self):
-        print(self.list_modules)
+        return self.list_modules
+
+    def is_sparta_module(self):
+        if self.module_name in self.list_modules:
+            return True
+        else:
+            return False
 
 
 m = Modules("Final Project", 1)
 
-m.module_add()
-m.list_all()
+print(m.module_add())
+print(m.list_all())
 
 
 # As a user I want to add a student to a batch
@@ -41,17 +47,21 @@ class Batches:
         self.start_date = start_date
 
     def add_student(self, name):
-        self.student_list.append(name)
+        if name.isalpha():
+            self.student_list.append(name)
+            print("Name successfully added")
+        else:
+            print("Invalid Name Entry")
 
     def list_all(self):
-        print(self.student_list)
+        return self.student_list
 
 
 s1 = Batches("Python", "24th Feb")
-s1.list_all()
+print(s1.list_all())
 
-s1.add_student("Tosin")
-s1.list_all()
+s1.add_student("Jane")
+print(s1.list_all())
 
 
 # As a user I want to create a Trainee
@@ -66,17 +76,17 @@ class Trainee:
         self.stream = stream
 
     def info(self):
-        print("Student details: {}, {} years old, ID {}, {}".format(self.name, self.age, self.id, self.stream))
+        return "Student details: {}, {} years old, ID {}, {}".format(self.name, self.age, self.id, self.stream)
 
     def trainer(self):
         if self.stream.lower() == "data":
-            print("Isabella trains this student")
+            return "Isabella trains this student"
         else:
-            print("Isabella doesn't train this student")
+            return "Isabella doesn't train this student"
 
 
 trainee1 = Trainee("CJ", 24, 1234, "Data")
 trainee2 = Trainee("James", 22, 5678, "Devops")
 
-trainee1.info()
-trainee1.trainer()
+print(trainee1.info())
+print(trainee1.trainer())
