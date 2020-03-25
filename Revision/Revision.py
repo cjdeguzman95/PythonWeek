@@ -22,7 +22,6 @@ class Student(Person):
         print("Welcome {} {} to the class of {}".format(self.fname, self.lname, self.graduationyear))
 
 
-
 x = Person("Ivan", "De Guzman")
 y = Student("CJ", "De Guzman", 2019)
 
@@ -30,6 +29,7 @@ x.printname()
 y.welcome()
 
 # Practice 2
+
 
 class Animal:
     def __init__(self, type, name, age):
