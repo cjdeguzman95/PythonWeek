@@ -1,4 +1,4 @@
-# create a function that chooses chooses the first and last names from csv file
+# create a function that chooses the first and last names from csv file
 import csv
 
 
