@@ -13,7 +13,7 @@ class Modules:
         if self.module_name == "python development":
             return "This module is 2 weeks long"
         else:
-            print("This module is a week long")
+            return "This module is a week long"
 
     def module_add(self):
         self.list_modules.append(self.module_name)

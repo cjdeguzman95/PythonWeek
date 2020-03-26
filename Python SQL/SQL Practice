@@ -40,5 +40,3 @@ print("Products under £20:")
 for product in rows:
     print("ID: {} Product: {}\n Price: £{}".format(product.ProductID, product.ProductName, product.UnitPrice))
 
-
-
