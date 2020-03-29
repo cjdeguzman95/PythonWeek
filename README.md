@@ -2,7 +2,7 @@
 
 ## Python Development Week
 
-### What we have learnt so far
+### What we have learnt
 
 Fundamentals of Python: 
 1. Variables
