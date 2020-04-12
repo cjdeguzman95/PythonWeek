@@ -7,7 +7,6 @@ end = "2020-04-01"
 yahoo_page = yf(ticker)
 ftse = yahoo_page.get_historical_price_data(start, end, "daily")
 
-
 days = ftse["^FTSE"]["prices"]
 
 
