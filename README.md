@@ -24,3 +24,5 @@ CSV Module:
 1. Reading CSV files
 2. Writing CSV files
 3. Saving transformed data into new CSV file
+
+# [Titanic Data Analysis Project](https://github.com/cjdeguzman95/PythonWeek/blob/master/Titanic%20Passengers%20Analysis.ipynb)
